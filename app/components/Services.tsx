@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Smartphone, Tablet, Cpu, Layers, CloudUpload, Lock } from 'lucide-react'
+import { Smartphone, Tablet, Cpu, Layers, Cloud, Lock } from 'lucide-react'
 
 export default function Services() {
   const services = [
@@ -30,7 +30,7 @@ export default function Services() {
       color: 'from-orange-500 to-red-500',
     },
     {
-      icon: CloudUpload,
+      icon: Cloud,  // ✅ تم التعديل هنا
       title: 'Backend Integration',
       description: 'Seamless API integration and cloud services implementation.',
       color: 'from-indigo-500 to-blue-500',
