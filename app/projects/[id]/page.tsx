@@ -4,9 +4,9 @@ import { motion } from 'framer-motion'
 import { ArrowLeft, ExternalLink, Github, CheckCircle, Quote } from 'lucide-react'
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
-import { getProjectById } from '@/lib/projects'
-import Header from '@/app/components/Header'
-import Footer from '@/app/components/Footer'
+import { getProjectById } from '../../../lib/projects'
+import Header from '../../components/Header'
+import Footer from '../../components/Footer'
 
 export default function ProjectDetails() {
   const params = useParams()
